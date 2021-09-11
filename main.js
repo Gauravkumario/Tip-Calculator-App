@@ -19,6 +19,7 @@ sub_left_top.appendChild(bill_div);
 const dollar_icon = document.createElement('img');
 dollar_icon.setAttribute('id','dollarIcon');
 dollar_icon.src = "images/icondollar.svg";
+dollar_icon.alt = "dollar image";
 dollar_icon.draggable = "False";
 billDiv.appendChild(dollar_icon);
 
@@ -112,6 +113,7 @@ subLeftBottom.appendChild(people_div);
 const person_icon = document.createElement('img');
 person_icon.setAttribute('id','personIcon');
 person_icon.src = "images/iconperson.svg";
+person_icon.alt = "person logo";
 person_icon.draggable = "False";
 peopleDiv.appendChild(person_icon);
 
